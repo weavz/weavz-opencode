@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "weavz": {
+      "type": "remote",
+      "url": "https://platform.weavz.io/mcp/weavz",
+      "enabled": true
+    }
+  }
+}
