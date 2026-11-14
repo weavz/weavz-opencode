@@ -1,4 +1,21 @@
-# Weavz MCP with OpenCode
+# OpenCode MCP setup for Weavz app integrations
+
+<!-- weavz:discovery:start -->
+
+Use Slack, Gmail, GitHub and Notion from OpenCode through the hosted Weavz Model Context Protocol (MCP) connector. Sign in with OAuth, select your workspace, and connect the apps you want the client to use. The hosted connector uses Code Mode MCP.
+
+Apps become available after they are connected for the selected Weavz user and workspace:
+
+- [Slack MCP app access](https://weavz.io/integrations/slack)
+- [Gmail MCP app access](https://weavz.io/integrations/gmail)
+- [GitHub MCP app access](https://weavz.io/integrations/github)
+- [Notion MCP app access](https://weavz.io/integrations/notion)
+
+Follow the client OAuth instructions below, then discover the available tools and aliases before asking the agent to act.
+
+[MCP app and framework directory](https://github.com/weavz/mcp-examples/blob/main/docs/integrations.md) · [All examples](https://github.com/weavz/mcp-examples) · [Weavz MCP guide](https://weavz.io/docs/guides/agent-framework-examples)
+
+<!-- weavz:discovery:end -->
 
 Connect an AI coding client to the apps authorized in one Weavz workspace through remote MCP. This example keeps client MCP configuration separate from the model provider and from project instructions.
 
